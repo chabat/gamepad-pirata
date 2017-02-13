@@ -1,0 +1,3 @@
+sudo service postgresql start // Começa o banco
+sudo -i -u chabatdb psql  // Entra no banco com o usuario "chabatdb"
+sudo service apache2 start // começa o apache
