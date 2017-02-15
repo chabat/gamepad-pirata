@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: blue;
+}
+
+h1{
+    font-family: serif;
+    background-color: green;
+}
+
+h3{
+    font-family: sans-serif;
+    background-image: url(https://goo.gl/kziCm8);
+}
+
+p{
+    color: rgb(255, 200, 0);
+    text-align: right; /*Alinhar o texto*/
+    font-family: monospace;
+    line-height: 3px; /* tamanho da altura de cada linha */
+    letter-spacing: 3px; /* tamanho do espaço entre cada letra */
+    word-spacing: 5px; /* tamanho do espaço entre cada palavra */
+    text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+    border-bottom: 2px solid #333333;
+}
+
+figure{
+    font-style: italic;
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+}
+
+figcaption{
+    background: #F2EDED; /* Jeito padrao de escrever cores */
+}
