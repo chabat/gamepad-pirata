@@ -1,0 +1,30 @@
+/*Estilização Do Banner e menu principal*/
+#logomenu ul{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006994;
+}
+
+#logomenu li{
+    display: inline;
+}
+
+#logomenu li a{
+    color: #c69c6d;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#logomenu li a:hover {
+    background-color: white;
+}
+
+#logomenu .active {
+    background-color: #c69c6d;
+    color: #008e94;
+}

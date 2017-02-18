@@ -1,0 +1,59 @@
+h1{
+	font-family: "Lucida Console", Monaco, monospace;
+	color:yellow;
+	/*background-color: black;*/
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+h2{
+	color:0000CC;
+	border-bottom: 5px solid #333333;
+	/*font-style: italic; */
+}
+
+figure{
+	border: 5px solid #333333;
+	text-align: center;
+}
+body{
+	/*
+	line-height: 5px;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	text-indent: 30px;
+	background: url("./img/tex.jpg");
+	background-color: rgb(53,98,68);
+	*/
+	background-color: black;
+	font-family: "Arial", "Helvetica", sans-serif;
+	color: white;
+}
+
+#menubar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: orange;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+#menubar li{
+	float: left;
+}
+#menubar li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#menubar li a:hover {
+	background-color: #D1C62E;
+}
+#menubar .active: {
+	background-color: #2E44D1;
+}

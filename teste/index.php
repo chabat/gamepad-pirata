@@ -52,5 +52,7 @@
 			<li> <a href= "https://www.google.com.br"> Google</a></li>
 		</ul>
 		<!-- BLABLABALBLABLABLABLABLA -->
+
+		<p id=“cor”> Texto do parágrafo com o identificador cor</p>
 	</body>
 </html>

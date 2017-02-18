@@ -35,3 +35,7 @@ figure{
 figcaption{
     background: #F2EDED; /* Jeito padrao de escrever cores */
 }
+
+cor{
+  color: yellow;
+}

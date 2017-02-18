@@ -1,0 +1,35 @@
+/*Background e fonte e cor de fonte padrão*/
+body{
+	background-color: black;
+	background-image: url("../img/textura_preta.jpg");
+	font-family: "Arial", "Helvetica", sans-serif;
+	color: white;
+}
+
+/*Lista da menubar*/
+#menubar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: orange;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+/*Links um do lado do outro*/
+#menubar li{
+	float: right;
+}
+/*Configuracoes para os links*/
+#menubar li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+/*Troca de cor qd passa o mouse*/
+#menubar li a:hover {
+	background-color: #D1C62E;
+}
