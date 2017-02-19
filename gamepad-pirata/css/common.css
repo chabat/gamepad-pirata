@@ -1,4 +1,9 @@
 /*CSS comum a todas as páginas*/
 body{
-    background-color: #008e94;
+    position: relative;
+    /*Necessario para o rodapé ficar embaixo*/
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    background-color: #008294;
 }

@@ -2,6 +2,7 @@
 
 <?php
     include("./php/logomenu.php");
+    include("./php/footer.php")
 ?>
 
 <html>
