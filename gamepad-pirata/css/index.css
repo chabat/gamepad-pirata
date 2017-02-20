@@ -3,6 +3,7 @@ ul.topsell{
     margin: 0;
     padding: 0;
     font-size: 0px;
+    margin-top: 1%;
 }
 
 ul.topsell li{
@@ -26,4 +27,11 @@ ul.topsell li a{
 ul.topsell a img{
     max-height: 400px;
     width: auto;
+}
+
+h2{
+    background-color: yellow;
+    /* background-image:url("../img/texture.jpg"); */
+    text-align: center;
+    font-family:"Arial Black", Gadget, sans-serif;
 }

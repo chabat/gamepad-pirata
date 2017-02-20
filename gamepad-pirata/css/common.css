@@ -1,9 +1,15 @@
 /*CSS comum a todas as páginas*/
-body{
-    position: relative;
-    /*Necessario para o rodapé ficar embaixo*/
-    margin: 0;
-    padding-bottom: 6rem;
-    min-height: 100%;
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
     background-color: #008294;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
 }

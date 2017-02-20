@@ -1,10 +1,4 @@
 <!DOCTYPE html>
-
-<?php
-    include("./php/logomenu.php");
-    include("./php/footer.php")
-?>
-
 <html>
     <head>
         <title>Gamepad Pirata - A melhor loja de jogos da região em que você estiver!</title>
@@ -12,6 +6,16 @@
     </head>
 
     <body>
+        <div id="wrapper">
+            <div id="header">
+                <?php include("./php/logomenu.php"); ?>
+            </div>
 
+            <div id="content"></div>
+
+            <div id="footer">
+                <?php include("./php/footer.php") ?>
+            </div>
+        <div/>
     </body>
 </html>

@@ -5,6 +5,7 @@
     </head>
     <body>
         <div id = "footer">
-            Aqui será o Rodapé da página
+            <h1>Aqui será o Rodapé da página</h1>
         </div>
     </body>
+</html>
