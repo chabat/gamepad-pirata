@@ -16,3 +16,7 @@ input[type=text], input[type=password], input[type=number], input[type=email]{
     margin-left: 600px;
     margin-top: 1%;
 }
+
+#content{
+    background-image: url('../img/greytexture.jpg');
+}

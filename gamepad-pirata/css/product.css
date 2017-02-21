@@ -1,0 +1,41 @@
+#showcase{
+    color: white;
+}
+
+#showcase legend{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+}
+
+#showcase fieldset{
+    background-image: url('../img/otherdarktexture.jpg');
+    border-color: black;
+}
+
+#showcase figure{
+    padding-left: 10%;
+    display: inline;
+    float:left;
+}
+
+#buyprice{
+    display: inline-block;
+    padding-top: 5%;
+    /*border: 2px solid black; */
+}
+
+#buyprice p{
+    display: inline;
+    font-size: 30px;
+}
+
+#buyprice button{
+    display: block;
+    width:100%;
+    height:50px;
+}
+
+#showcase info{
+    float: right;
+    border: 2px solid black;
+}

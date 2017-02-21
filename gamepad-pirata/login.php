@@ -8,7 +8,9 @@
 
     <body>
         <div id="wrapper">
+            <?php include("./php/dbconnect.php"); ?>
             <?php include("./php/logomenu.php"); ?>
+            <?php include("./php/showerrors.php");?>
     		<div id="content">
                 <form action="aquivaialgo">
                     <div class="form" id = "login">
@@ -29,8 +31,3 @@
     	</div>
     </body>
 </html>
-
-
-<body>
-
-</body>

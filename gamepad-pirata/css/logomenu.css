@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #006994;
+    background-image: url('../img/darktexture.jpg');
 }
 
 #logomenu li{
@@ -14,17 +14,16 @@
 }
 
 #logomenu li a{
-    color: #c69c6d;
+    color: white;
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
 }
 
 #logomenu li a:hover {
-    background-color: white;
+    background-color: gray;
 }
 
 #logomenu .active {
-    background-color: #c69c6d;
     color: white;
 }
